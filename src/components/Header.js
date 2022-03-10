@@ -9,9 +9,9 @@ const Header = () => {
     const { cart } = useSelector((state) => state.basket);
     const [loading, setLoading] = useState(true)
 
-    // useEffect(() => {
-        
-    //   }, [loading]);
+    useEffect(() => {
+        console.log(cart.basket)
+      }, []);
 
 
 
